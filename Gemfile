@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # authentification
-#gem 'devise'
+gem 'devise'
 #gem 'pundit'
 
 gem 'rails'
@@ -13,6 +13,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'devise'
+gem 'bootstrap-sass', '3.2.0.2'
+gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 
 group :development, :test do
   gem 'sqlite3'
